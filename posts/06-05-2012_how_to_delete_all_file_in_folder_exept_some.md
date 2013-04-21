@@ -2,6 +2,7 @@
 title: How to delete all files in a folder exept some.
 author: Sarfraz
 date: June 5, 2012
+tags: haskell
 ---
 
 A really simple script. But you have to write it. Let me save you some minutes. You can even use it without knowing of haskell.

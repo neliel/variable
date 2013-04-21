@@ -2,17 +2,62 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>VariablEntreprise - $title$</title>
-    <link rel="icon" type="image/png" href="/images/share-icon-16x16.png">
-    <link rel="stylesheet" type="text/css" href="/css/default.css">
-    <link rel="stylesheet" type="text/css" href="/css/syntax.css">
+    <meta name="description" content="Variable rambles">
+    <title>variablentreprise - $title$</title>
+    <link rel="stylesheet" href="/css/syntax.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/core.css" />
+    <link rel="image_src" href="/favicon.ico" />
+
   </head>
   <body>
-    <h1><a class="titreSite" href="/index.html">VariablEntreprise</a></h1>
-    <div id="navigation">
-      <a href="/index.html">Home</a>
-      <a href="/about.html">About</a>
+    <div class="top"></div>
+    <div class="wrapper">
+      <div class="container">
+        <div class="menu">
+          <nav>
+            <ul>
+              <li class="menu-item">
+                <a href="/">
+                  <img src="/images/home32.png" alt="Home" />
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="/posts.html">
+                  <img src="/images/linedpaper32.png" alt="Posts" />
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="/about.html">
+                  <img src="/images/user32.png" alt="About" />
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="row">
+          <div class="span10 offset1 header">
+            <header>
+              <div class="logo">
+                <a class="h1" href="/">
+                  <h1>variablentreprise</h1>
+                </a>
+              </div>
+            </header>
+          </div>
+          
+          <div class="span10 offset1">
+            <section>
+              $body$
+            </section>
+          </div>
+        </div>
+      </div>
     </div>
-        $body$
+
+    <footer>
+      <div class="bottom">©2013</div>
+    </footer>
   </body>
 </html>

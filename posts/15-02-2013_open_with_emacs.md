@@ -2,6 +2,7 @@
 title: Open in Emacs context menu in Windows.
 author: Sarfraz
 date: February 02, 2013
+tags: Emacs, DOS
 ---
 
 Create a file with a .reg extension.
